@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevOps Manual Testing Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Student Portal</h1>
+      <p>Lab 12 &amp; 13 • Manual Testing</p>
+      <form id="loginForm">
+        <label for="username">Username</label
+        ><input
+          id="username"
+          autocomplete="username"
+          placeholder="Enter username"
+        /><label for="password">Password</label
+        ><input
+          id="password"
+          type="password"
+          autocomplete="current-password"
+          placeholder="Enter password"
+        /><button type="submit">Log in</button>
+        <p id="message" role="status" aria-live="polite"></p>
+      </form>
+      <section id="dashboard" hidden>
+        <h2>Welcome to the dashboard</h2>
+        <button id="logout" type="button">Log out</button>
+      </section>
+      <small>Demo credentials: student / Test@123</small>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
